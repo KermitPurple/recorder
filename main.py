@@ -28,4 +28,6 @@ def record_and_loop():
             break
 
 if __name__ == "__main__":
+    print("Press 'ctrl' to start recording and 'esc' to stop recording and start looping")
+    print("Hold 'esc' to stop looping")
     record_and_loop()
